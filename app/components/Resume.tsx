@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, MouseEvent } from "react";
 
-// react-icons
+// react-icons --
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiShadcnui } from "react-icons/si";
