@@ -4,34 +4,58 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-gray-700 flex sm:flex-nowrap flex-wrap justify-center sm:justify-between p-10 sm:p-12"
+      className="bg-gray-700 flex sm:flex-nowrap flex-wrap justify-center sm:justify-between p-12 sm:p-20"
     >
-      <div className="flex justify-center h-40 w-40 overflow-hidden rounded-full shrink-0 sm:mr-20 mb-10">
+      <div className="flex justify-center h-60 w-60 overflow-hidden rounded-full shrink-0 sm:mr-20 mb-10">
         <Image
-          src="/joaoPhoto.jpg"
+          src="/joaoPhoto.png"
           alt="Profile Image"
-          height={300}
+          height={200}
           width={200}
+          style={{ objectFit: "cover" }}
         />
       </div>
-      <div className="flex flex-col w-full space-y-2">
-        <h2 className="text-lg sm:text-xl text-white font-bold">About Me</h2>
-        <p className="text-sm sm:text-md text-gray-400 text-justify">
-        As a Software Engineer with over 3 years of experience in IoT development, I bring a strong foundation in building high-quality, innovative solutions. Through extensive training in modern web technologies, I have honed my expertise in MERN stack development, enabling me to deliver scalable and efficient applications. My adaptability, dedication to continuous learning, and passion for solving complex problems make me a valuable asset to any forward-thinking team. I am committed to staying ahead of industry trends and leveraging my skills to drive impactful, cutting-edge projects.
-        </p>
-        <div className="flex flex-col w-full space-y-2">
-          <h2 className="text-lg sm:text-xl text-white font-bold mt-6">
-            Contact Details
-          </h2>
-          <p className="text-sm sm:text-md text-gray-400 text-justify">
-            <span>Joao Paulo de Souza Machado</span>
-            <br />
-            <span>Barcelona - 08026</span>
-            <br />
-            <span>(+34) 615 055 703</span>
-            <br />
-            <span>jpsm83@hotmail.com</span>
+      <div className="text-lg md:text-xl flex flex-col w-full space-y-8 sm:space-y-14">
+        <div className="text-gray-400 text-justify flex flex-col justify-between gap-2 md:gap-4">
+          <h2 className="text-white font-bold">About Me</h2>
+          <p>
+            🌟 Software Engineer | Crafting Impactful Applications & IoT
+            Solutions
           </p>
+          <p>
+            I’m a passionate Software Engineer dedicated to building innovative
+            applications with cutting-edge technologies. 🚀 My expertise spans
+            IoT development and MERN stack (including Next.js), enabling me to
+            create dynamic, user-friendly interfaces and robust backends that
+            deliver seamless and engaging user experiences. 🌐
+          </p>
+          <p>
+            With a strong foundation in database management, I work effortlessly
+            across MongoDB, PostgreSQL, and SQL, leveraging tools like Postman
+            and Prisma for efficiency. While Python isn’t my primary language, I
+            confidently incorporate it into projects to enhance flexibility and
+            adaptability. 🐍
+          </p>
+          <p>
+            Calm under pressure and skilled in Agile methodologies, I deliver
+            transparent and timely results using tools like Jira, Trello, and
+            Git. Recognized for my attention to detail, collaborative mindset,
+            and commitment to writing clean, maintainable code, I quickly adapt
+            to evolving technologies and team dynamics.
+          </p>
+          <p>
+            Whether working remotely or in hybrid environments, I bring a
+            focused, solution-oriented approach to challenges. Let’s work
+            together to create meaningful, impactful solutions that drive
+            innovation forward. 💻✨
+          </p>
+        </div>
+        <div className="text-gray-400 text-justify flex flex-col justify-between">
+          <h2 className="text-white font-bold mb-4">Contact Details</h2>
+          <p>• Joao Paulo de Souza Machado</p>
+          <p>• Barcelona - 08026</p>
+          <p>• (+34) 615 055 703</p>
+          <p>• jpsm83@hotmail.com</p>
         </div>
       </div>
     </section>

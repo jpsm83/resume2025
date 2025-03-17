@@ -1,4 +1,5 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 const qualities = [
   "Technical Skills",
@@ -17,23 +18,21 @@ const qualities = [
   "Focus",
 ];
 
-const qualitiesMap = () => {
+const Qualities = () => {
   return (
-    <div className="flex justify-center flex-wrap p-3 gap-6 mx-4">
-      {qualities.map((quality) => (
-        <p
-          key={quality}
-          className="whitespace-nowrap font-bold text-white text-sm"
-        >
-          {quality}
-        </p>
-      ))}
+    <div className="w-full bg-gray-900 overflow-hidden h-14 sm:h-20 flex items-center">
+      <Marquee gradient={false} speed={30} pauseOnHover={false}>
+        {qualities.map((quality, index) => (
+          <p
+            key={index}
+            className="whitespace-nowrap font-bold text-white text-lg sm:text-xl mx-6"
+          >
+            {quality}
+          </p>
+        ))}
+      </Marquee>
     </div>
   );
-};
-
-const Qualities = () => {
-  return <div className="w-full bg-gray-900">{qualitiesMap()}</div>;
 };
 
 export default Qualities;

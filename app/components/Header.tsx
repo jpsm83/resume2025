@@ -29,8 +29,8 @@ export default function Header() {
         />
       </div>
 
-      <div className="absolute flex flex-col justify-center items-center gap-y-4 sm:gap-y-8">
-        <h1 className="text-5xl sm:text-7xl text-white font-bold mx-4 sm:mx-8 text-center">
+      <div className="absolute flex flex-col justify-center items-center gap-y-10 sm:gap-y-16">
+        <h1 className="text-6xl sm:text-8xl text-white font-bold mx-4 sm:mx-8 text-center">
           <TypeAnimation
             sequence={["Hello, I'm João Machado.", 1000]}
             wrapper="span"
@@ -38,11 +38,12 @@ export default function Header() {
             repeat={Infinity}
           />
         </h1>
-        <h3 className="text-md sm:text-lg text-white text-center mx-4 sm:mx-8">
-          Barcelona-based Software Engineer with over 3 years of experience,
+        <h3 className="text-lg md:text-2xl text-white text-center mx-4 sm:mx-8">
+          🚀 Barcelona-based Software Developer with 3+ years&apos; experience,
           leveraging the latest technologies to build scalable, high-performance
-          applications. Passionate about crafting innovative solutions and
-          driving impactful projects
+          delivering cutting-edge applications. Passionate about solving
+          problems, staying ahead of trends, and driving impactful projects with
+          a growth mindset. 🌐✨
         </h3>
 
         <div className="flex space-x-5 sm:space-x-8">

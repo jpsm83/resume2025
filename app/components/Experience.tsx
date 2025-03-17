@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 import { FaLinkedin } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -22,26 +23,75 @@ export const Experience = () => {
       image: "/lucas.jpg",
     },
     {
-      name: "Juan Manuel Rueda Carrero",
-      title:
-        "Technical Director of Integral 9Altitudes (Spain, Portugal and Brazil)",
+      name: "Sandro Maggiolo",
+      title: "Senior IIoT Engineer / Project manager at Integral 9Altitudes",
       company: "Integral 9Altitudes",
-      linkedin: "https://www.linkedin.com/in/juan-manuel-rueda-carrero/",
-      image: "/juamma.jpg",
+      linkedin: "https://www.linkedin.com/in/sandro-maggiolo-a3612b187/",
+      image: "/sandro.jif",
+    },
+  ];
+
+  const logos = [
+    {
+      source: "/armada.png",
+      altText: "Armada",
+      width: 100,
+      height: 100,
+    },
+    {
+      source: "/hp.png",
+      altText: "HP",
+      width: 140,
+      height: 140,
+    },
+    {
+      source: "/indra.png",
+      altText: "Indra",
+      width: 200,
+      height: 200,
+    },
+    {
+      source: "/liquats.png",
+      altText: "Liquats",
+      width: 180,
+      height: 180,
+    },
+    {
+      source: "/pikolin.png",
+      altText: "Pikolin",
+      width: 140,
+      height: 140,
+    },
+    {
+      source: "/seat.png",
+      altText: "Seat",
+      width: 120,
+      height: 120,
+    },
+    {
+      source: "/tosa.png",
+      altText: "Tosa",
+      width: 160,
+      height: 160,
     },
   ];
 
   return (
+    <>
     <section
-      id="resume"
-      className="bg-gray-700 flex-col justify-center sm:space-y-12 space-y-6 sm:justify-between p-10 sm:p-20"
+      id="experience"
+      className="bg-gray-500 flex-col justify-center sm:space-y-12 space-y-6 sm:justify-between p-14 sm:p-20"
     >
-      <h1 className="text-lg sm:text-xl text-white underline font-bold">
+      <h1 className="text-lg sm:text-xl text-white font-extrabold">
         EXPERIENCE
       </h1>
 
       <div className="flex">
-        <a href="https://www.9altitudes.com/" className="w-full">
+        <a
+          href="https://www.9altitudes.com/"
+          target="_blank"
+          className="w-full"
+        >
           <div className="bg-white inline-flex justify-around items-center w-full p-10">
             <Image
               src="/integral.png"
@@ -54,6 +104,7 @@ export const Experience = () => {
               alt="9Altitudes"
               width={200}
               height={200}
+              className="hidden sm:block"
             />
           </div>
         </a>
@@ -63,7 +114,7 @@ export const Experience = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="size-12 text-gray-400 hover:scale-110 hover:text-yellow-600 cursor-pointer" />
+            <FaLinkedin className="size-12 text-gray-400 hover:scale-110 hover:text-yellow-400 cursor-pointer" />
           </a>
 
           <a
@@ -71,20 +122,22 @@ export const Experience = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaMapMarkerAlt className="size-12 text-gray-400 hover:scale-110 hover:text-yellow-600 cursor-pointer" />
+            <FaMapMarkerAlt className="size-12 text-gray-400 hover:scale-110 hover:text-yellow-400 cursor-pointer" />
           </a>
         </div>
       </div>
 
       <div className="flex flex-col gap-6">
-        <div className="flex gap-6 mb-4 sm:mb-6 flex-wrap">
-          <h2 className="font-bold text-xl text-yellow-600">
+        <div className="flex gap-8 sm:gap-12 mb-4 sm:mb-6 flex-wrap">
+          <h2 className="font-extrabold text-xl sm:text-2xl text-yellow-400 self-end">
             Integral Innovation Experts / 9Altitudes
           </h2>
-          <h3 className="italic text-white">From January 2019 to present</h3>
+          <h3 className="italic text-white self-end">
+            From January 2019 to present
+          </h3>
         </div>
-        <div className="flex flex-col gap-6 mx-20 text-justify">
-          <p className="text-white">
+        <div className="flex flex-col gap-6 sm:gap-8 mx-20 text-justify text-white text-lg sm:text-xl">
+          <p>
             At Integral / 9Altitudes, I contributed significantly as a versatile
             software engineer, engaging in diverse projects that showcased my
             adaptability and technical expertise. I worked extensively across
@@ -94,7 +147,7 @@ export const Experience = () => {
             directly impacted the success of the company and its high-profile
             clients.
           </p>
-          <p className="text-white">
+          <p>
             Collaborating with clients such as Armada, HP, Indra, Liquats,
             Pikolin, Seat, and Textil Olius, I played a crucial role in
             understanding their specific needs and translating those into
@@ -102,47 +155,40 @@ export const Experience = () => {
             delivering value-driven projects that enhanced operational
             efficiency and user experience for these organizations.
           </p>
-          <p className="text-white">
+          <p>
             Through innovative problem-solving and a commitment to excellence, I
             ensured the delivery of high-quality software, contributing to the
             company’s reputation for reliability and expertise. My work not only
             reinforced client trust but also drove their digital transformation
             efforts forward, aligning with their strategic goals.
           </p>
-          <p className="text-white">
+          <p>
             This experience has honed my ability to navigate complex challenges,
             collaborate across teams, and deliver impactful solutions that make
             a tangible difference for both the organization and its clientele.
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap gap-6 justify-between items-center">
-        <div>
-          <Image src="/armada.png" alt="Armada" width={100} height={100} />
-        </div>
-
-        <div>
-          <Image src="/hp.png" alt="HP" width={140} height={140} />
-        </div>
-
-        <div>
-          <Image src="/indra.png" alt="Indra" width={200} height={200} />
-        </div>
-        <div>
-          <Image src="/liquats.png" alt="Liquats" width={180} height={180} />
-        </div>
-        <div>
-          <Image src="/pikolin.png" alt="Pikolin" width={140} height={140} />
-        </div>
-        <div>
-          <Image src="/seat.png" alt="Seat" width={120} height={120} />
-        </div>
-        <div>
-          <Image src="/tosa.png" alt="Tosa" width={160} height={160} />
-        </div>
+      </section>
+      <div className="flex flex-wrap gap-6 justify-between items-center bg-gray-900">
+        <Marquee gradient={false} speed={30} pauseOnHover={false} >
+          {logos.map((logo, index) => (
+            <div className="mx-3 sm:mx-6" key={index}>
+              <Image
+                src={logo.source}
+                alt={logo.altText}
+                width={logo.width}
+                height={logo.height}
+              />
+            </div>
+          ))}
+        </Marquee>
       </div>
-      <hr />
-      <h1 className="text-lg sm:text-xl text-white underline font-bold">
+      <section id="references"
+      className="bg-gray-700 flex-col justify-center sm:space-y-12 space-y-6 sm:justify-between p-14 sm:p-20"
+    >
+
+      <h1 className="text-xl sm:text-2xl text-white font-extrabold">
         REFERENCES
       </h1>
 
@@ -166,9 +212,9 @@ export const Experience = () => {
               </div>
             </a>
 
-            <div className="font-bold text-white ml-8">
+            <div className="font-bold text-white ml-8 text-lg sm:text-xl">
               <h3 className="inline">Name:</h3>
-              <span className=" ml-2 sm:ml-4 text-yellow-600 font-bold">
+              <span className="ml-2 sm:ml-4 text-yellow-600 font-extrabold text-xl sm:text-2xl">
                 {reference.name}
               </span>
               <br />
@@ -186,5 +232,6 @@ export const Experience = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };

@@ -52,9 +52,9 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="bg-gray-200 flex flex-col text-center justify-center gap-8 py-6 sm:py-12"
+      className="bg-gray-400 flex flex-col text-center justify-center gap-8 py-6 sm:py-12"
     >
-      <h1 className="font-bold text-xl sm:text-2xl text-gray-900 m-8">
+      <h1 className="font-extrabold text-xl sm:text-2xl text-gray-800 m-8">
         Portofolio
       </h1>
 
@@ -62,7 +62,7 @@ export default function Portfolio() {
         {portofolio.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col bg-white p-4 justify-between gap-4"
+            className="flex flex-col bg-white p-4 justify-between gap-4 shadow-xl"
           >
             <div className="flex justify-between items-center">
               <h2 className="font-bold text-md sm:text-lg text-yellow-600">

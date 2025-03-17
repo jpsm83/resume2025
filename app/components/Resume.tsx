@@ -59,45 +59,45 @@ export default function Resume() {
 
   return (
     <section
-      id="resume"
+      id="skills"
       className="bg-gray-100 flex-col justify-center sm:space-y-12 space-y-6 sm:justify-between p-10 sm:p-20"
     >
-      <div className="flex sm:space-x-6 sm:space-y-12 space-y-6 flex-wrap">
-        <h1 className="text-lg sm:text-xl text-blue-900 underline font-bold">
+      <div className="flex sm:space-x-6 sm:space-y-12 space-y-6 flex-wrap text-lg sm:text-xl">
+        <h1 className="text-blue-900 font-extrabold">
           EDUCATION
         </h1>
         <div>
           <div>
-            <h2 className="font-bold text-lg sm:text-xl text-yellow-600 mb-2 sm:mb-4">
+            <h2 className="font-extrabold text-yellow-600 mb-2 sm:mb-4">
               SENAC Escola Tecnica de Hospitalidade (Hospitality Technical
               School)
             </h2>
-            <h3 className="text-md sm:text-lg italic">
+            <h3 className="text-lg sm:text-xl italic">
               Gegenciamento de bares e restaurantes (Food & Beverage Management)
             </h3>
-            <p className="text-sm sm:text-md italic mb-2 sm:mb-4">
+            <p className="text-md sm:text-lg italic mb-2 sm:mb-4">
               Accomplished on November 2010
             </p>
           </div>
           <div>
-            <h2 className="font-bold text-lg sm:text-xl text-yellow-600 mb-2 sm:mb-4">
+            <h2 className="font-extrabold text-yellow-600 mb-2 sm:mb-4">
               IronHack Barcelona
             </h2>
-            <h3 className="text-md sm:text-lg italic">
+            <h3 className="text-lg sm:text-xl italic">
               Full Stack Web Developer MERN
             </h3>
-            <p className="text-sm sm:text-md italic mb-2 sm:mb-4">
+            <p className="text-md sm:text-lg italic mb-2 sm:mb-4">
               Accomplished on June 2021
             </p>
           </div>
           <div>
-            <h2 className="font-bold text-lg sm:text-xl text-yellow-600 mb-2 sm:mb-4">
+            <h2 className="font-extrabold text-yellow-600 mb-2 sm:mb-4">
               Udemy
             </h2>
-            <h3 className="text-md sm:text-lg italic">
+            <h3 className="text-lg sm:text-xl italic">
               Python and Django Full Stack Web Developer Bootcamp
             </h3>
-            <p className="text-sm sm:text-md italic mb-2 sm:mb-4">
+            <p className="text-md sm:text-lg italic mb-2 sm:mb-4">
               Accomplished on November 2022
             </p>
           </div>
@@ -105,7 +105,7 @@ export default function Resume() {
       </div>
 
       <div>
-        <h1 className="text-lg sm:text-xl text-blue-900 underline font-bold mb-6">
+        <h1 className="text-lg sm:text-xl text-blue-900 font-extrabold mb-6">
           SKILLS
         </h1>
 

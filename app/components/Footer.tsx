@@ -1,10 +1,9 @@
-import { FaArrowAltCircleUp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between p-14">
+    <div className="flex justify-between p-8 border-t-2 border-gray-600 bg-gray-100">
       <div className="flex flex-col justify-center items-center gap-2 sm:gap-4 md:gap-6 w-full">
         <div className="flex space-x-5 sm:space-x-8">
           <a href="https://www.linkedin.com/in/joaopsmachado/" target="_blank">
@@ -18,11 +17,6 @@ export default function Footer() {
           Created by <span className="font-bold">Joao P S Machado</span>
         </p>
       </div>
-      <div>
-        <a href="#home">
-          <FaArrowAltCircleUp className="size-12" />
-        </a>
-    </div>
     </div>
   );
 }
