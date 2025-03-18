@@ -27,7 +27,7 @@ export const Experience = () => {
       title: "Senior IIoT Engineer / Project manager at Integral 9Altitudes",
       company: "Integral 9Altitudes",
       linkedin: "https://www.linkedin.com/in/sandro-maggiolo-a3612b187/",
-      image: "/sandro.jif",
+      image: "/sandro.png",
     },
   ];
 
