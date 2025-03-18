@@ -129,7 +129,7 @@ export const Experience = () => {
 
       <div className="flex flex-col gap-6">
         <div className="flex gap-8 sm:gap-12 mb-4 sm:mb-6 flex-wrap">
-          <h2 className="font-extrabold text-xl sm:text-2xl text-yellow-400 self-end">
+          <h2 className="font-extrabold text-xl sm:text-2xl text-yellow-600 self-end">
             Integral Innovation Experts / 9Altitudes
           </h2>
           <h3 className="italic text-white self-end">
@@ -170,7 +170,7 @@ export const Experience = () => {
         </div>
       </div>
       </section>
-      <div className="flex flex-wrap gap-6 justify-between items-center bg-gray-900">
+      <div className="flex flex-wrap gap-6 justify-between items-center bg-gray-600">
         <Marquee gradient={false} speed={30} pauseOnHover={false} >
           {logos.map((logo, index) => (
             <div className="mx-3 sm:mx-6" key={index}>
