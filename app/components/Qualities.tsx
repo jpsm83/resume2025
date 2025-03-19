@@ -20,12 +20,12 @@ const qualities = [
 
 const Qualities = () => {
   return (
-    <div className="w-full bg-gray-900 overflow-hidden h-14 sm:h-20 flex items-center">
-      <Marquee gradient={false} speed={30} pauseOnHover={false}>
+    <div className="w-full bg-gray-900 overflow-hidden h-20 flex items-center">
+      <Marquee gradient={false} speed={100} pauseOnHover={false}>
         {qualities.map((quality, index) => (
           <p
             key={index}
-            className="whitespace-nowrap font-bold text-white text-lg sm:text-xl mx-6"
+            className="whitespace-nowrap font-bold text-white text-xl mx-6"
           >
             {quality}
           </p>

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-gray-700 flex sm:flex-nowrap flex-wrap justify-center sm:justify-between p-12 sm:p-20"
+      className="bg-gray-700 flex sm:flex-nowrap flex-wrap justify-center sm:justify-between px-8 py-20 sm:p-20"
     >
       <div className="flex justify-center h-60 w-60 overflow-hidden rounded-full shrink-0 sm:mr-20 mb-10">
         <Image
@@ -15,9 +15,9 @@ export default function About() {
           style={{ objectFit: "cover" }}
         />
       </div>
-      <div className="text-lg md:text-xl flex flex-col w-full space-y-8 sm:space-y-14">
-        <div className="text-gray-400 text-justify flex flex-col justify-between gap-2 md:gap-4">
-          <h2 className="text-white font-bold">About Me</h2>
+      <div className="text-xl flex flex-col w-full gap-12 text-justify text-gray-400">
+        <div className="flex flex-col justify-between gap-8">
+          <h2 className="text-white font-extrabold">About Me</h2>
           <p>
             🌟 Software Engineer | Crafting Impactful Applications & IoT
             Solutions
@@ -50,8 +50,8 @@ export default function About() {
             innovation forward. 💻✨
           </p>
         </div>
-        <div className="text-gray-400 text-justify flex flex-col justify-between">
-          <h2 className="text-white font-bold mb-4">Contact Details</h2>
+        <div className=" flex flex-col justify-between">
+          <h2 className="text-white font-extrabold mb-8">Contact Details</h2>
           <p>• Joao Paulo de Souza Machado</p>
           <p>• Barcelona - 08026</p>
           <p>• (+34) 615 055 703</p>

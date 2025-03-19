@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { FaGithub } from "react-icons/fa";
 import { IoCaretForwardCircleSharp } from "react-icons/io5";
 
@@ -52,13 +51,11 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="bg-gray-400 flex flex-col text-center justify-center gap-8 py-6 sm:py-12"
+      className="bg-gray-400 flex flex-col text-center justify-center gap-8 px-8 py-20 sm:p-20"
     >
-      <h1 className="font-extrabold text-xl sm:text-2xl text-gray-800 m-8">
-        Portofolio
-      </h1>
+      <h1 className="font-extrabold text-2xl text-white mb-4">Portofolio</h1>
 
-      <div className="flex justify-center gap-6 sm:gap-12 md:gap-18 flex-wrap mb-16 mx-6">
+      <div className="flex justify-center gap-16 flex-wrap">
         {portofolio.map((item, index) => (
           <div
             key={index}
@@ -83,12 +80,12 @@ export default function Portfolio() {
             </div>
 
             <div className="flex gap-2 sm:gap-4 md:gap-6 justify-center">
-              <div className="relative z-10">
+              <div className="relative z-9">
                 <a href={item.githubFront} target="blank">
                   <FaGithub className="text-gray-300 size-12 cursor-pointer" />
                 </a>
                 {item.githubBack && (
-                  <h5 className="font-bold text-gray-900 cursor-pointer absolute top-0 left-[-22] z-10">
+                  <h5 className="font-bold text-gray-900 cursor-pointer absolute top-0 left-[-22] z-9">
                     Front
                   </h5>
                 )}
@@ -98,7 +95,7 @@ export default function Portfolio() {
                   <a href={item.githubBack} target="blank">
                     <FaGithub className="text-gray-300 size-12 cursor-pointer" />
                   </a>
-                  <h5 className="font-bold text-gray-900 cursor-pointer absolute bottom-0 right-[-22] z-10">
+                  <h5 className="font-bold text-gray-900 cursor-pointer absolute bottom-0 right-[-22] z-9">
                     Back
                   </h5>
                 </div>
