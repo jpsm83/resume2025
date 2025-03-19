@@ -20,7 +20,7 @@ export default function Home() {
       <Portfolio />
       <Footer />
       <a href="#home" className="fixed md:bottom-8 bottom-12 right-6 hover:text-gray-300">
-        <FaArrowAltCircleUp className="size-14" />
+        <FaArrowAltCircleUp className="size-12" />
       </a>
     </div>
   );

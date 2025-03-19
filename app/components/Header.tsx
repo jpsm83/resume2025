@@ -36,10 +36,10 @@ export default function Header() {
 
         <div className="flex space-x-8">
           <a href="https://www.linkedin.com/in/joaopsmachado/" target="_blank">
-            <FaLinkedin className="size-16 text-white hover:scale-110" />
+            <FaLinkedin className="size-12 text-white hover:scale-110" />
           </a>
           <a href="https://github.com/jpsm83" target="_blank">
-            <FaGithub className="size-16 text-white hover:scale-110" />
+            <FaGithub className="size-12 text-white hover:scale-110" />
           </a>
         </div>
       </div>

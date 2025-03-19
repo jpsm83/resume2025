@@ -86,7 +86,7 @@ export const Experience = () => {
     <>
       <section
         id="experience"
-        className="flex bg-gray-500 flex-col justify-between gap-12 px-8 py-20 sm:p-20"
+        className="flex bg-gray-500 flex-col justify-between gap-12 px-8 py-20 md:p-20"
       >
         <h1 className="text-xl text-white font-extrabold">EXPERIENCE</h1>
 
@@ -108,11 +108,11 @@ export const Experience = () => {
                 alt="9Altitudes"
                 width={200}
                 height={200}
-                className="hidden sm:block"
+                className="hidden md:block"
               />
             </div>
           </a>
-          <div className="flex flex-col justify-between ml-4 sm:ml-6">
+          <div className="flex flex-col justify-between ml-4 md:ml-6">
             <a
               href="https://www.google.com/maps/place/DFactory+Barcelona/@41.3358098,2.1354109,17z/data=!3m1!4b1!4m6!3m5!1s0x12a49fa3e62890a7:0x3b586603c0247115!8m2!3d41.3358098!4d2.1379912!16s%2Fg%2F11q8gbb6dz?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
               target="_blank"
@@ -132,7 +132,7 @@ export const Experience = () => {
 
         <div className="flex flex-col gap-6">
           <div className="flex gap-6 mb-6 flex-wrap justify-between">
-            <h2 className="font-extrabold text-xl sm:text-2xl text-gray-800 self-end">
+            <h2 className="font-extrabold text-xl md:text-2xl text-gray-800 self-end">
               Integral Innovation Experts / 9Altitudes
             </h2>
             <h3 className="italic text-white self-end">
@@ -191,18 +191,18 @@ export const Experience = () => {
       </div>
       <section
         id="references"
-        className="flex bg-gray-700 flex-col gap-12 justify-between px-8 py-20 sm:p-20"
+        className="flex bg-gray-700 flex-col gap-12 justify-between px-8 py-20 md:p-20"
       >
         <h1 className="text-2xl text-white font-extrabold">REFERENCES</h1>
 
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col md:flex-row gap-16 flex-wrap">
           {references.map((reference) => (
             <div
               key={reference.name}
-              className="flex gap-10 flex-nowrap items-center"
+              className="flex flex-col md:flex-row gap-10 items-center w-full"
             >
               <a href={reference.linkedin} target="_blank">
-                <div className="relative w-[100]">
+                <div className="relative w-[100px]">
                   <div className="rounded-full overflow-hidden">
                     <Image
                       src={reference.image}
@@ -215,22 +215,23 @@ export const Experience = () => {
                 </div>
               </a>
 
-              <div className="font-bold text-white ml-8 text-lg sm:text-xl">
+              <div className="text-center md:text-start font-bold text-white md:ml-8 text-lg md:text-xl w-full">
                 <h3 className="inline">Name:</h3>
-                <span className="ml-2 sm:ml-4 text-yellow-600 font-extrabold text-xl sm:text-2xl">
+                <span className="ml-2 md:ml-4 text-yellow-600 font-extrabold text-xl md:text-2xl">
                   {reference.name}
                 </span>
                 <br />
                 <h3 className="inline">Position:</h3>
-                <span className="ml-2 sm:ml-4 font-normal">
+                <span className="ml-2 md:ml-4 font-normal">
                   {reference.title}
                 </span>
                 <br />
                 <h3 className="inline">Company:</h3>
-                <span className="ml-2 sm:ml-4 font-normal">
+                <span className="ml-2 md:ml-4 font-normal">
                   {reference.company}
                 </span>
               </div>
+              <hr className="border-white w-full md:border-none" />
             </div>
           ))}
         </div>
