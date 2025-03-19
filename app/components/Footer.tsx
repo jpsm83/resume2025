@@ -15,11 +15,12 @@ export default function Section() {
           className="w-full h-auto"
         />
       </div>
-      <div className="absolute md:top-[200px] top-20 flex flex-col justify-center items-center gap-2 bg-gray-900 bg-opacity-60 m-6 p-6 md:m-20 md:p-20 shadow-xl md:gap-12">
-        <h3 className="text-2xl md:text-5xl text-white text-center font-extrabold shadow-xl">
+      <div className="absolute md:top-[200px] top-16
+       flex flex-col justify-center items-center gap-2 bg-gray-900 bg-opacity-60 m-6 p-6 md:m-20 md:p-20 shadow-xl md:gap-12">
+        <h3 className="text-xl md:text-5xl text-white text-center font-extrabold shadow-xl">
           FIRST PRICE HACKTON ON MOBILE WORLD BARCELONA 2022
         </h3>
-        <FaMedal className="text-9xl text-white" size={60} />
+        <FaMedal className="text-9xl text-white" size={40} />
       </div>
 
       <div className="absolute bottom-6 md:bottom-12 flex flex-col justify-center items-center gap-2 sm:gap-4 md:gap-6 w-full">

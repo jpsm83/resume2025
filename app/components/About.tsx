@@ -6,12 +6,13 @@ export default function About() {
       id="about"
       className="bg-gray-700 flex sm:flex-nowrap flex-wrap justify-center sm:justify-between px-8 py-20 sm:p-20"
     >
-      <div className="flex justify-center h-60 w-60 overflow-hidden rounded-full sm:mr-20 mb-20">
+      <div className="flex justify-center h-60 w-60 overflow-hidden rounded-full shrink-0 sm:mr-20 mb-10">
         <Image
           src="/joaoPhoto.png"
           alt="Profile Image"
           height={200}
           width={200}
+          style={{ objectFit: "cover" }}
         />
       </div>
       <div className="text-xl flex flex-col w-full gap-12 text-justify text-gray-400">
