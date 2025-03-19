@@ -26,10 +26,10 @@ export default function Section() {
       <div className="absolute bottom-6 md:bottom-12 flex flex-col justify-center items-center gap-2 sm:gap-4 md:gap-6 w-full">
         <div className="flex space-x-5 sm:space-x-8">
           <a href="https://www.linkedin.com/in/joaopsmachado/" target="_blank">
-            <FaLinkedin className="size-12 text-white hover:scale-110" />
+            <FaLinkedin className="size-10 md:size-12 text-white hover:scale-110" />
           </a>
           <a href="https://github.com/jpsm83" target="_blank">
-            <FaGithub className="size-12 text-white hover:scale-110" />
+            <FaGithub className="size-10 md:size-12 text-white hover:scale-110" />
           </a>
         </div>
         <p className="text-md italic text-center text-white">

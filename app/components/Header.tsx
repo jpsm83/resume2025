@@ -18,7 +18,7 @@ export default function Header() {
         />
       </div>
       <div className="absolute flex flex-col justify-center items-center gap-y-16">
-        <h1 className="text-7xl md:text-8xl text-white font-bold mx-4 md:mx-8 text-center">
+        <h1 className="text-7xl md:text-8xl text-white font-bold mx-4 md:mx-8 text-center h-90 md:h-[170px]">
           <TypeAnimation
             sequence={["Hello, I'm João Machado", 1000]}
             wrapper="span"
@@ -26,7 +26,7 @@ export default function Header() {
             repeat={Infinity}
           />
         </h1>
-        <h3 className="text-2xl text-white text-center mx-4 md:mx-8">
+        <h3 className="text-xl md:text-2xl text-white text-center mx-4 md:mx-8">
           🚀 Barcelona-based Software Developer with 3+ years&apos; experience,
           leveraging the latest technologies to build scalable, high-performance
           delivering cutting-edge applications. Passionate about solving
