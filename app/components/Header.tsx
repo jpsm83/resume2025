@@ -14,6 +14,7 @@ export default function Header() {
           alt="Background Image"
           height={1033}
           width={1838}
+          style={{ objectFit: "cover" }}
         />
       </div>
       <div className="absolute flex flex-col justify-center items-center gap-y-16">

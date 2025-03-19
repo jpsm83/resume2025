@@ -199,7 +199,7 @@ export const Experience = () => {
           {references.map((reference) => (
             <div
               key={reference.name}
-              className="inline-flex w-full gap-10 flex-nowrap items-center"
+              className="flex gap-10 flex-nowrap items-center"
             >
               <a href={reference.linkedin} target="_blank">
                 <div className="relative w-[100]">
