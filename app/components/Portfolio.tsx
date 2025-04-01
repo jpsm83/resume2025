@@ -11,6 +11,13 @@ const portofolio = [
     githubBack: null,
   },
   {
+    name: "ECommerce",
+    image: "/ecommerce.png",
+    link: "https://ecommerce-mu-livid.vercel.app/",
+    githubFront: "https://github.com/jpsm83/2025-ecommerce-frontend",
+    githubBack: null,
+  },
+  {
     name: "My Recipes Library",
     image: "/myRecipesLibrary.PNG",
     link: "https://my-recipes-library-app.herokuapp.com/",

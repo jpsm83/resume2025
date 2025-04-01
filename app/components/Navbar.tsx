@@ -42,7 +42,7 @@ const MenuBlock = ({ className }: { className?: string }) => (
 );
 
 const downloadResume = () => {
-  FileSaver.saveAs("/jp-resume-2025-compressed.pdf", "My_Resume.pdf");
+  FileSaver.saveAs("/joao2025march.pdf", "My_Resume.pdf");
 };
 
 export default function Navbar() {
