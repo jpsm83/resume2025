@@ -30,6 +30,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
+import { TbBrandReactNative } from "react-icons/tb";
 import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaUbuntu } from "react-icons/fa";
@@ -43,6 +44,7 @@ import { FaWindows } from "react-icons/fa";
 import { SiReactquery } from "react-icons/si";
 import { RiBearSmileLine } from "react-icons/ri";
 import { FaTrello } from "react-icons/fa";
+import { SiVite } from "react-icons/si";
 
 const iconStyles =
   "size-14 text-gray-400 hover:scale-110 hover:text-yellow-600 cursor-auto";
@@ -230,6 +232,11 @@ export default function Resume() {
             onMouseEnter={(e) => handleIconName(e, "ReactJS")}
             onMouseLeave={(e) => handleIconName(e, "")}
           />
+          <TbBrandReactNative
+            className={iconStyles}
+            onMouseEnter={(e) => handleIconName(e, "React Native")}
+            onMouseLeave={(e) => handleIconName(e, "")}
+          />
           <SiRedux
             className={iconStyles}
             onMouseEnter={(e) => handleIconName(e, "Redux")}
@@ -295,6 +302,11 @@ export default function Resume() {
             onMouseEnter={(e) => handleIconName(e, "Trello")}
             onMouseLeave={(e) => handleIconName(e, "")}
           />
+          <SiVite
+            className={iconStyles}
+            onMouseEnter={(e) => handleIconName(e, "Vite")}
+            onMouseLeave={(e) => handleIconName(e, "")}
+          />
           <Image
             src="/logos/chatgpt.svg"
             alt="ChatGPT"
@@ -313,7 +325,7 @@ export default function Resume() {
             width={40}
             height={40}
             onMouseEnter={(e) => {
-              handleIconName(e, "ChatGPT");
+              handleIconName(e, "Thingworx");
             }}
             onMouseLeave={(e) => {
               handleIconName(e, "");
