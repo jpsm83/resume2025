@@ -18,13 +18,6 @@ const portofolio = [
     githubBack: null,
   },
   {
-    name: "My Recipes Library",
-    image: "/myRecipesLibrary.PNG",
-    link: "https://my-recipes-library-app.herokuapp.com/",
-    githubFront: "https://github.com/jpsm83/my-recipes-library-client",
-    githubBack: "https://github.com/jpsm83/my-recipes-library-server",
-  },
-  {
     name: "Movies Redux",
     image: "/movieRedux.png",
     link: "https://movies-redux.vercel.app/",
@@ -34,9 +27,9 @@ const portofolio = [
   {
     name: "To Do App",
     image: "/toDoApp.png",
-    link: "https://notesaplication.herokuapp.com/",
-    githubFront: "https://github.com/jpsm83/notes-app-react-client",
-    githubBack: "https://github.com/jpsm83/notes-app-react-server",
+    link: "https://notes2025front.vercel.app",
+    githubFront: "https://github.com/jpsm83/notes2025front",
+    githubBack: "https://github.com/jpsm83/notes2025back",
   },
   {
     name: "Netflix Clone",
